@@ -7,7 +7,7 @@ import { MyplatformService } from '../../core/services/platform/myplatform.servi
   standalone: true,
   imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
  constructor(private _MyplatformService:MyplatformService){}
