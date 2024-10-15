@@ -1,0 +1,20 @@
+<section class="skills py-24 px-4">
+  <div class="container max-w-7xl mx-auto">
+    <h2 class="section-title text-4xl text-white font-black uppercase text-center mb-12">
+      My Skills
+    </h2>
+    <div class="skills-grid grid grid-cols-4 gap-8">
+      @for (skill of skillsArr; track $index) {
+        <div class="skill flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition">
+          <i class= {{skill.logo}}></i>
+          <p class="text-lg font-bold text-gray-800">{{skill.name}}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+
+
+
+
