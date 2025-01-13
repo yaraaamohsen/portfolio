@@ -20,7 +20,7 @@ export class HomeComponent {
 
   private initTyped() {
     const options = {
-      strings: ['Programmer', 'FrontEnd Developer', 'Web Developer'],
+      strings: ['Programmer', 'Full Stack Developer', '.Net Developer', 'Web Developer'],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true
